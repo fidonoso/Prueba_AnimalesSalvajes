@@ -4,7 +4,7 @@ class Leon extends Animal{
         super(nombre, edad, img, comentarios, sonido)
     }
     Rugir(){
-        
+        return this.Sonido()
     }
 }
 class Lobo extends Animal{
@@ -12,7 +12,7 @@ class Lobo extends Animal{
         super(nombre, edad, img, comentarios, sonido)
     }
     Aullar(){
-
+        return this.Sonido()
     }
 }
 class Oso extends Animal{
@@ -20,7 +20,7 @@ class Oso extends Animal{
         super(nombre, edad, img, comentarios, sonido)
     }
     Grunir(){
-
+        return this.Sonido()
     }
 }
 class Serpiente extends Animal{
@@ -28,7 +28,7 @@ class Serpiente extends Animal{
         super(nombre, edad, img, comentarios, sonido)
     }
     Sisear(){
-
+        return this.Sonido()
     }
 }
 class Aguila extends Animal{
@@ -36,7 +36,7 @@ class Aguila extends Animal{
         super(nombre, edad, img, comentarios, sonido)
     }
     Chillar(){
-
+        return this.Sonido()
     }
 }
 
